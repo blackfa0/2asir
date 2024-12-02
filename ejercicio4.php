@@ -4,7 +4,7 @@ $tabla = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $dni = intval($_POST["dni"]);
 $letra = $tabla[$dni % 23];
-echo "El NIF es: $dni$letra";
+echo "El DNI es: $dni$letra";
 }
 ?>
 <form method="post">
