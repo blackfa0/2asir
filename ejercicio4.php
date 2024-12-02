@@ -8,4 +8,3 @@ echo "El NIF es: $dni$letra";
 }
 ?>
 <form method="post">
-Page 2
